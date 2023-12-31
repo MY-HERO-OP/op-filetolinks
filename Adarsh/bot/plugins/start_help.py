@@ -26,12 +26,11 @@ async def start(b, m):
     if usr_cmd == "/start":
         await m.reply_photo(
             photo="https://te.legra.ph/file/0d6c9e62c58be76bfa0e2.jpg",
-            caption="**ʜᴇʟʟᴏ...⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛAɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ...**",
+            caption="**ʜᴇʟʟᴏ...**{message.from_user.mention}**⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛAɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://telegra.ph/Professorr-Botz-Update-12-19-2"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/Professorr_x")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/Professorr_x"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/Professorr_x")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@Professorr_modz")]
+                    [InlineKeyboardButton("OWNER", url="https://t.me/Professorr_x"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/Professorr_x")]
                 ]
             ),
             
@@ -87,7 +86,6 @@ async def help_handler(bot, message):
                 [
                     [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://telegra.ph/Professorr-Botz-Update-12-19-2"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/Professorr_x")],
                     [InlineKeyboardButton("OWNER", url="https://t.me/Professorr_x"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/Professorr_x")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@Professorr_modz")]
                 ]
             ),
             
@@ -113,16 +111,14 @@ async def about_handler(bot, message):
 ┣⪼<b>sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3</b>
-┣⪼<b>ʏᴏᴜᴛᴜʙᴇ : <a href='https://youtube.com/@Professorr_modz'>Professorr botz</a></b>
 ┃
-<b>╰━━━━━━━〔ᴘʟᴇᴀsʀ sᴜᴘᴘᴏʀᴛ〕</b>""",
+<b>╰━━━━━━━〔ᴘʟᴇᴀꜱᴇ ꜱᴜᴘᴘᴏʀᴛ〕</b>""",
   
         
         reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://telegra.ph/Professorr-Botz-Update-12-19-2"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/Professorr_x")],
                     [InlineKeyboardButton("OWNER", url="https://t.me/Professorr_x"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/Professorr_x")],
-                    [InlineKeyboardButton("💌 SUBSCRIBE 💌", url="https://youtube.com/@Professorr_modz")]
                 ]
             ),
             
