@@ -29,7 +29,7 @@ async def start(b, m):
             caption="**ʜᴇʟʟᴏ...**{message.from_user.mention}**⚡\n\nɪᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ ᴀɴᴅ sᴛʀᴇᴀᴍ ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ.**\n\n**ᴜsᴇ /help ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛAɪʟs\n\nsᴇɴᴅ ᴍᴇ ᴀɴʏ ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ...**",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://telegra.ph/Professorr-Botz-Update-12-19-2"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/Professorr_x")],
+                    [InlineKeyboardButton("ᴏᴡɴᴇʀ😈", url="https://t.me/professorr_x"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/Professorr_x")],
                     [InlineKeyboardButton("OWNER", url="https://t.me/Professorr_x"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/Professorr_x")]
                 ]
             ),
@@ -84,8 +84,8 @@ async def help_handler(bot, message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⚡ UPDATES ⚡", url="https://telegra.ph/Professorr-Botz-Update-12-19-2"), InlineKeyboardButton("⚡ SUPPORT ⚡", url="https://t.me/Professorr_x")],
-                    [InlineKeyboardButton("OWNER", url="https://t.me/Professorr_x"), InlineKeyboardButton("💠 DEVELOPER", url="https://t.me/Professorr_x")],
+                    [InlineKeyboardButton("ᴏᴡɴᴇʀ😈", url="https://t.me/professorr_x"), InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ‼", url="https://t.me/+GlWjH2Zbp-w5YjVl")],
+                    [InlineKeyboardButton("ᴅᴏɴᴀᴛᴇ😥", url="https://telegra.ph/Buy-Me-Coffee-12-25"), InlineKeyboardButton("ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ👻", url="https://t.me/terabox_movie_request_group")],
                 ]
             ),
             
